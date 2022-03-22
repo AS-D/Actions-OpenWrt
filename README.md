@@ -18,7 +18,9 @@ A template for building OpenWrt with GitHub Actions
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
 cd openwrt
+
 ./scripts/diffconfig.sh > diffconfig
+
 nano diffconfig
 
 ## Tips
