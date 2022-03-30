@@ -17,6 +17,8 @@ A template for building OpenWrt with GitHub Actions
 - Click the `Run workflow` button.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
+touch /tmp/keepalive
+
 cd openwrt
 
 make menuconfig
