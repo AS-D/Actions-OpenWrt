@@ -19,6 +19,8 @@ A template for building OpenWrt with GitHub Actions
 
 cd openwrt
 
+make menuconfig
+
 ./scripts/diffconfig.sh > diffconfig
 
 nano diffconfig
